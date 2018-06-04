@@ -14,7 +14,7 @@ $ mkdir image
 $ python3 fitstoimg.py
 </code></pre>
 
-### Code : fitstoimg.py
+### Code (fitstoimg.py)
 
 <pre><code>import os
 import numpy as np
@@ -42,3 +42,7 @@ for filename in os.listdir(dir_path+"\\data"):
         im.save(dir_path+"\\image\\"+filename+".jpg")
         im.close()
 </code></pre>
+
+
+### Contact
+- Dong Hyun Kim (Korea) : psds075@gmail.com
