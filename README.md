@@ -8,6 +8,8 @@
 - Command <code>git clone https://github.com/psds075/fitstoimg.git</code>.
 - Make new folder 'data' and 'image' in current directory, and copy .fits files to data folder. (<code>mkdir data</code>, <code>mkdir image</code>)
 - Command <code>python fitstoimg.py</code>.
+- In linux environment, you should revise directory character '\\' -> '/'.
+- It is tested on Windows 10, Linux Ubuntu 16.04.
 <pre><code>$ git clone https://github.com/psds075/fitstoimg.git
 $ mkdir data
 $ mkdir image
